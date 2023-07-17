@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *  main - Entry point of the program 
+ *  main - Entry point of the program
  *
  *  Description: This function prints a message to the standard output.
  *
- *  Return: Always 0(success)
+ *  Return: Always 0 (success)
  */
 int main(void)
 {
