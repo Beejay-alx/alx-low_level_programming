@@ -9,7 +9,7 @@
 int main(void)
 {
 	/* uses the putchar function to print to stdio */
-	putchar('-');
+	putchar('_');
 	putchar('p');
 	putchar('u');
 	putchar('t');
