@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - cause an infinite loop
+ * main - causes an infinite loop
  *
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
 	int i;
 
-	printf("infinfinite loop incoming :(/n");
+	printf("infinite loop incoming :(\n");
 
 	i = 0;
 
