@@ -6,7 +6,7 @@
  *
  * Return: difference of ascii value if diferent char else 0 (success)
  */
-int strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int c;
 
