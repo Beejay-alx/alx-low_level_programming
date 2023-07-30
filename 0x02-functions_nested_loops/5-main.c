@@ -1,33 +1,33 @@
 #include "main.h"
 /**
- * main - entry of the function
+ * main - entry point of the function
  *
- * Return: always 0 (success)
+ * Return: always 0 (sucess)
  *
  */
 int main(void)
 {
-	int r;
+	int n;
 
-	r = print_sign(98);
+	n = print_sign(98);
 	_putchar(',');
 	_putchar(' ');
-	_putchar(r + '0');
+	_putchar(n + '0');
 	_putchar('\n');
-	r = print_sign(0);
+	n = print_sign(0);
 	_putchar(',');
 	_putchar(' ');
-	_putchar(r + '0');
+	_putchar(n + '0');
 	_putchar('\n');
-	r = print_sign(0xff);
+	n = print_sign(0xff);
 	_putchar(',');
 	_putchar(' ');
-	_putchar(r + '0');
+	_putchar(n + '0');
 	_putchar('\n');
-	r = print_sign(-1);
+	n = print_sign(-1);
 	_putchar(',');
 	_putchar(' ');
-	_putchar(r + '0');
+	_putchar(n + '0');
 	_putchar('\n');
 	return (0);
 }
