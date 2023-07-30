@@ -2,7 +2,7 @@
 /**
  * main - entry of the function
  *
- * Return: Always 0 (success)
+ * Return: always 0 (success)
  *
  */
 int main(void)
