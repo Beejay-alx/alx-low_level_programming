@@ -4,7 +4,7 @@
 
 /**
  * print_listint - prints out all the elements of a listint_t list
- * @: head pointer to the list
+ * @h: head pointer to the list
  *
  * Return: number of nodes
  */
