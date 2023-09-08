@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+
 /**
  * error_file - checks if files can be opened
  * @file_from: file from
@@ -60,7 +61,7 @@ int main(int argc, char *argv[])
 	err_close = close(file_from);
 	if (err_close == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Cant close fd %d\n", file_from);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
 		exit(100);
 	}
 
