@@ -4,8 +4,8 @@
 
 /**
  * error_file - checks if files can be opened
- * @file_from: file from
- * @file_to: file to
+ * @file_from: file_from
+ * @file_to: file_to
  * @argv: arguements vector
  * Return: no return
  */
